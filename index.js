@@ -16,12 +16,14 @@ app.use(cors());
 // A tiny little in-memory DB (just an array) to keep track of customer objects
 const customersDB = [
 	{
+		id: 1,
 		name: "John Doe",
 		address1: "123 Somewhere St",
 		city: "Denver",
 		state: "CO",
 	},
 	{
+		id: 2,
 		name: "Jane Smith",
 		address1: "456 Nowhere St",
 		city: "Denver",
